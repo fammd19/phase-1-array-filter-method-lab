@@ -38,7 +38,7 @@ function fuzzyMatch (drivers, checkLetters) {
 
 //Drivers is an array of object which contain a driver name, hometown etc
 function matchName (drivers, checkName) {
-    return drivers.filter(driver => driver.name===checkName);
+    return drivers.filter(driver => driver.name.toLowerCase()===checkName.toLowerCase());
 }
 
 //console.log(findMatching(drivers, "Bobby"));

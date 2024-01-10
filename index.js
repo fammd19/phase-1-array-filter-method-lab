@@ -26,15 +26,17 @@
     return matchingNames;
 };*/
 
+//Drivers is an array of names
 function findMatching (drivers, checkName) {
     return drivers.filter(driver => driver.toLowerCase()===checkName.toLowerCase());
 }
 
-
-function fuzzyMatch (driversArr, checkLetters) {
+//Drivers is an array of names
+function fuzzyMatch (drivers, checkLetters) {
     return drivers.filter(driver => driver.toLowerCase().startsWith(checkLetters.toLowerCase()));
 };
 
+//Drivers is an array of object which contain a driver name, hometown etc
 function matchName (drivers, checkName) {
     return drivers.filter(driver => driver.name===checkName);
 }

@@ -1,7 +1,7 @@
 // Code your solution here
 //const drivers = ['Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'Bobby'];
 
-/*const drivers = [
+const drivers = [
     {
       name: 'Bobby',
       hometown: 'Pittsburgh' },
@@ -17,7 +17,7 @@
     {
       name: 'Bobby',
       hometown: 'Tampa Bay' }
-  ];*/
+  ];
 
 /*function findMatching (driversArr, checkName) {
     let arr = driversArr.map(driver => driver.toLowerCase());
